@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="test">
+    <h1>Populaton Growth</h1>
+    <p>--- A simple calculator dipicting the change in population via percent and number ---</p>
+
+    <ul style="line-height:180%">
+      <li>Initial Population: <input type="number" id="population"></li>
+      <li># of Births: <input type="number" id="birth"></li>
+      <li># of Immigrants: <input type="number" id="moveIn"></li>
+      <li># of Deaths: <input type="number" id="death"></li>
+      <li># of Emigration: <input type="number" id="moveOut"></li>
+      <li>Net Population Growth: <span id="output">----</span><span>%</span></li>
+      <li><button id="calc">Calculate</button></li>
+    </ul>
+
+  </div>
+
+  <!-- Load Javascript-->
+  <script src="random-library.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
